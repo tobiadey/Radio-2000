@@ -2,10 +2,10 @@
   "name": "rd_task",
   "version": "1.0.0",
   "description": "- Setup a cloud db using firebase",
-  "main": "index.js",
+  "main": "api/index.js",
   "type": "module",
   "scripts": {
-    "start": "node api/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
