@@ -1,6 +1,5 @@
-
 import express from 'express';
-import { getUsers, getStations,getUser,getStation} from './firestoreFunctions.js';
+import { getUsers, getStations,getUser,getStation} from '../src/firestoreFunctions.js';
 
 const app = express()
 const port = 3000
@@ -21,6 +20,8 @@ app.get('/station/:name',getStation )
 app.listen(port, () => {
   console.log(`🚀 Server ready at http://localhost:${port}`);
 })
+
+
 
 
 
