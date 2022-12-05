@@ -1,5 +1,5 @@
 import express from 'express';
-import { getUsers, getStations,getUser,getStation} from './src/firestoreFunctions.js';
+import { getUsers, getStations,getUser,getStation} from './api/firestoreFunctions.js';
 
 
 const app = express()

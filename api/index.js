@@ -1,22 +1,22 @@
-import express from 'express';
-import { getUsers, getStations,getUser,getStation} from '../src/firestoreFunctions.js';
+// import express from 'express';
+// import { getUsers, getStations,getUser,getStation} from './firestoreFunctions.js';
 
-/**
- * GET product list.
- *
- * @return product list | empty.
- */
-router.get("/", async (req, res) => {
-  try {
-    res.json({
-      status: 200,
-      message: "Get data has successfully",
-    });
-  } catch (error) {
-    console.error(error);
-    return res.status(500).send("Server error");
-  }
-});
+// /**
+//  * GET product list.
+//  *
+//  * @return product list | empty.
+//  */
+// router.get("/", async (req, res) => {
+//   try {
+//     res.json({
+//       status: 200,
+//       message: "Get data has successfully",
+//     });
+//   } catch (error) {
+//     console.error(error);
+//     return res.status(500).send("Server error");
+//   }
+// });
 
 
 
