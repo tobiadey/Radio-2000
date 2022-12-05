@@ -28,8 +28,6 @@ app.listen(port, () => {
 
 
 
-
-
 // import express from 'express';
 // import { getUsers, getStations,getUser,getStation} from './src/firestoreFunctions.js';
 
