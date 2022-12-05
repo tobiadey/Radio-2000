@@ -5,7 +5,7 @@
  * Setting up Express- https://www.youtube.com/watch?v=YPsftzOURLw&ab_channel=SyedZano
  */
 
-import { stationCollectionRef,userCollectionRef } from "../src/firebaseConfig.js";
+import { stationCollectionRef,userCollectionRef } from "./firebaseConfig.js";
 import { addDoc, getDocs, query, where, onSnapshot  } from "firebase/firestore";
 import { stations,users, user,station } from "../src/populateData.js";
 
