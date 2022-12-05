@@ -1,5 +1,5 @@
 import express from 'express';
-import { getUsers, getStations,getUser,getStation} from './api/firestoreFunctions.js';
+import { sayHello, getUsers, getStations,getUser,getStation} from './api/firestoreFunctions.js';
 
 
 const app = express()
@@ -10,6 +10,7 @@ app.get('/', (req, res) => {
   res.send('Hello!!! Check out the other endpoints')
 })
 
+app.get('/hello', sayHello);
 app.get('/users', getUsers);
 app.get('/stations', getStations);
 app.get('/user/:name',getUser )

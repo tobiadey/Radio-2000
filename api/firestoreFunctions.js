@@ -11,7 +11,7 @@ import { stations,users, user,station } from "../src/populateData.js";
 
 
 
-// export const sayHello = (req, res) => res.json({hello: 'world'});
+export const sayHello = (req, res) => res.json({hello: 'world'});
 
 
 //add all user data
