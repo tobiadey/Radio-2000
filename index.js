@@ -5,11 +5,11 @@ const app = express();
 app.use(express.json({ extended: false }));
 
 
-app.use("/", (req, res) => {
+app.get("/", (req, res) => {
     res.send('Hello!!! Check out the other endpoints')
 });
 
-app.use("/test", (req, res) => {
+app.get("/test", (req, res) => {
     res.send('Hello!!! Check out the other endpoints')
   });
 
